@@ -409,7 +409,7 @@ main()
 
 # Diagrama de flujo 
 
-![_Diagrama de flujo](https://github.com/user-attachments/assets/afb35d6a-8c01-4157-acd8-ee872f4756b7)
+![Diagrama programacion](https://github.com/user-attachments/assets/cca64906-fe13-48c5-9ee1-9b13eeb8cc83)
 
  # Repositorio de avance
  
