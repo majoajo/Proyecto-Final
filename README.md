@@ -418,4 +418,8 @@ https://github.com/majoajo/Proyecto-Darth-Pyths-/tree/main
 # Pseudocodigo
 
 
+# link colab
+
+https://colab.research.google.com/drive/19qCDLB4LWiOlUMVunskOYs6yTs1fIMEd?authuser=1#scrollTo=_MxfwQsRYA5o
+
 
