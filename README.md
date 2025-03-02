@@ -27,7 +27,8 @@ Crear un juego de sopa de letras (en python) que permita a los usuarios interact
 
 El problema consiste en crear una sopa de letras que cumpla con los requisitos impuestos por la tarea y por nosotros; encontrar la manera mas sencilla de resolver el problema con los recursos que no han enseñado en clase.
 
-Lo primero que hay que hacer es crear un diagrama de flujo con las funciones principales relacionadas para asi poer estructurar el codigo
+Lo primero que hay que hacer es crear un diagrama de flujo con las funciones principales relacionadas para asi poder estructurar el codigo
+
 Ademas de esto se tuvo que investigar ciertos operadores o funciones que no conociamos al momento del desarrollo
 
 Diagrama de flujo en anexos
