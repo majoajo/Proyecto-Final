@@ -469,10 +469,7 @@ https://github.com/majoajo/Proyecto-Darth-Pyths-/tree/main
         // Verificar si la palabra seleccionada es correcta
         resultado ← ValidarPalabraEncontrada(matriz, palabras_colocadas, inicio, fin, palabras_encontradas)  
 
-    Fin Mientras  
-
-    // Mensaje
-    MostrarMensaje("¡Felicidades! Has encontrado todas las palabras.")  
+    Fin 
 
 FIN  
 
