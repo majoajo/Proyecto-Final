@@ -419,6 +419,64 @@ https://github.com/majoajo/Proyecto-Darth-Pyths-/tree/main
 # Pseudocodigo
 
 
+    Mostrar instrucciones del juego  
+    
+    // Selección de dificultad y tamaño de la matriz
+    size ← ObtenerDificultad()  
+    
+    // Creación de la matriz vacía
+    matriz ← CrearMatriz(size)  
+    
+    // Selección de la categoría de palabras
+    diccionario ← CategoriaChoose()  
+    
+    // Filtrar palabras que quepan en la matriz
+    palabras_filtradas ← FiltrarPalabras(diccionario, size)  
+    
+    // Ordenar palabras de mayor a menor longitud
+    palabras_ordenadas ← OrdenarPalabras(palabras_filtradas)  
+    
+    // Colocar palabras en la matriz sin repetirlas
+    palabras_colocadas ← ColocarPalabras(matriz, palabras_ordenadas)  
+    
+    // Rellenar los espacios vacíos con letras aleatorias
+    RellenarMatriz(matriz)  
+    
+    // Imprimir la sopa de letras en consola
+    ImprimirMatriz(matriz)  
+    
+    // Mostrar las palabras que el jugador debe encontrar
+    MostrarPalabrasAEncontrar(palabras_colocadas)  
+
+    // Inicializar conjunto de coordenadas de palabras encontradas
+    palabras_encontradas ← ConjuntoVacio()  
+
+    // Bucle principal del juego
+    Mientras palabras_colocadas no esté vacío Hacer  
+
+        // Pedir coordenadas al usuario
+        coordenada_inicio ← PedirCoordenada("Ingresa la coordenada inicial (ej. A1): ")  
+        coordenada_fin ← PedirCoordenada("Ingresa la coordenada final (ej. B2): ")  
+
+        // Convertir coordenadas a índices de la matriz
+        inicio ← ConvertirCoordenada(coordenada_inicio, size)  
+        fin ← ConvertirCoordenada(coordenada_fin, size)  
+
+        // Si las coordenadas no son válidas, volver a pedirlas
+        Si inicio es NULO O fin es NULO Entonces  
+            Continuar  
+
+        // Verificar si la palabra seleccionada es correcta
+        resultado ← ValidarPalabraEncontrada(matriz, palabras_colocadas, inicio, fin, palabras_encontradas)  
+
+    Fin Mientras  
+
+    // Mensaje
+    MostrarMensaje("¡Felicidades! Has encontrado todas las palabras.")  
+
+FIN  
+
+
 # link colab
 
 https://colab.research.google.com/drive/19qCDLB4LWiOlUMVunskOYs6yTs1fIMEd?authuser=1#scrollTo=_MxfwQsRYA5o
