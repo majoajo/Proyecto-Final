@@ -412,7 +412,7 @@ main()
 
 ![Diagrama programacion](https://github.com/user-attachments/assets/cca64906-fe13-48c5-9ee1-9b13eeb8cc83)
 
- # Repositorio de avance
+ # Repositorio anterior del avance del proyecto
  
 https://github.com/majoajo/Proyecto-Darth-Pyths-/tree/main
 
